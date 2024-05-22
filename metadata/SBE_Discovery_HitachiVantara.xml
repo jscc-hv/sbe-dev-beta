@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SBEUpdatesManifest>
-  <ManifestInfo ManifestType="SBE" ReleaseType="Draft" CreationDate="2024-05-22T20:30:12Z" />
-  <ApplicableUpdate Version="4.1.2405.223" Type="SBE" Family="HA800G3">
+  <ManifestInfo ManifestType="SBE" ReleaseType="Draft" CreationDate="2024-05-22T21:15:45Z" />
+  <ApplicableUpdate Version="4.1.2405.224" Type="SBE" Family="HA800G3">
     <ValidatedConfigurations>
       <RequiredPackages />
     </ValidatedConfigurations>
@@ -41,23 +41,23 @@
 ]
 ]]></CredentialList>
     <UpdateInfo>
-      <UpdateName>SBE_HitachiVantara_HA800G3_4.1.2405.223</UpdateName>
+      <UpdateName>SBE_HitachiVantara_HA800G3_4.1.2405.224</UpdateName>
       <Publisher>HitachiVantara</Publisher>
       <LicenseUri>https://www.hitachivantara.com/en-us/pdf/legal/software-license-terms.pdf</LicenseUri>
       <Copyright>(C) Hitachi Vantara LLC. All Rights Reserved.</Copyright>
-      <Version>4.1.2405.223</Version>
+      <Version>4.1.2405.224</Version>
       <SupportedModels>
         <SupportedModel>HitachiAdvancedServerHA820G3</SupportedModel>
         <SupportedModel>HitachiAdvancedServerHA810G3</SupportedModel>
         <SupportedModel>VirtualMachine</SupportedModel>
       </SupportedModels>
       <PackageSizeInMb>119</PackageSizeInMb>
-      <Description>Hitachi Vantara SBE package, version 4.1.2405.223, for both Validated Node and Integrated System</Description>
-      <PackageHash>AF2ADC544F443EF10B32A096DE0CB33C9EB0702577D9DD5CF40A06F4710D5FEA</PackageHash>
+      <Description>Hitachi Vantara SBE package, version 4.1.2405.224, for both Validated Node and Integrated System</Description>
+      <PackageHash>1B7F920C702825FD0DC76D7E45402F33BE8816817CC273386D61288942C52BD9</PackageHash>
       <UpdateImpact>
       </UpdateImpact>
     </UpdateInfo>
-    <MetadataFile Name="SBE_HitachiVantara_HA800G3_4.1.2405.223.xml" Uri="" />
-    <File Name="SBE_HitachiVantara_HA800G3_4.1.2405.223.zip" Uri="" NotifyUri="https://support.hitachivantara.com/" Type="DownloadConnector" NotifyMsg="(C) Hitachi Vantara LLC. All Rights Reserved." />
+    <MetadataFile Name="SBE_HitachiVantara_HA800G3_4.1.2405.224.xml" Uri="" />
+    <File Name="SBE_HitachiVantara_HA800G3_4.1.2405.224.zip" Uri="" NotifyUri="https://support.hitachivantara.com/" Type="DownloadConnector" NotifyMsg="(C) Hitachi Vantara LLC. All Rights Reserved." />
   </ApplicableUpdate>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cdUAtaKEvtAk8vL8e1K8Q1WZxkY=</DigestValue></Reference></SignedInfo><SignatureValue>a9EEUYrDDBGe3x7Ib1MNkXSZ+QnlkBLHeCpSzi6WwSWB0aKXzrT+hZ5AMoGluLbmBk94/BEm06GDrWW/DoD6Z3vB6uHmMm4qXCoX7VMG7R+mD0XhClDvYpu0EIeAv0bAJfjyjm39+D8XmoS4PODQq3+QgJb6qL3SFIsbzhK7ueH4b2dnrDiqHe3i/PmJtoDiJexPgNl3d65V5Faz+HbVAWilafFLLdpHrxKRM2sPVfpnz33AuZLfq2dIJ6ziQ1PdyjP6+IbpTeYy5XmNR7vB1NQcUj1IX+mx7wnkk559jqkGQqI7RD2oLdgNC7qQ9OxbGetylaX8Ky0ttX72Bhg/hQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wWkAP5O6T9HHZNTv5vukDMzoVYfpe8kYf9jRmRnfhl5tm20cpJxBgcDxqNKAJQljfYPpa4R2Q52Rl4OwXuwQ/xwUkd911onjs/0f5NG45Ww/K9O1tfOWQ3prdSKAjgep5liCBDhiJqxWJA2sn4WvgN1xhlBzErx4lpizib19rsU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDFDCCAfygAwIBAgIQI6Ne0eRVbKZDbwWqDH+/HDANBgkqhkiG9w0BAQsFADAWMRQwEgYDVQQDDAtUZXN0U2lnbmluZzAeFw0yNDA1MTkxMTEzMzVaFw0zNDA1MTkxMTIzMzRaMBYxFDASBgNVBAMMC1Rlc3RTaWduaW5nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA13RICfHOQvEAy9JWrZ6w2oGWSzTolptUDVDFf8avw5pKwXEPnGRMZ2Vashw5E3GWpKIbkO0s2okYbfwNhkjoirquaRAF3By2LsqrIhkKXQ41M7IoIKRwDeT2DLsjiaDiJjRI+Ji/8chEoWodkj0hqW4mUx3oJj7upkXVtutwoDujRNNZdp22Y6h1e54G5IgQc5Q3va6IKNkV48le/CWHelOkt8YVR4QDpxLH0Np59a6rNtFUi5HJfQRybYfiPUfatyxFgHA5bnmdGeqtrmG/m+4TLtS0wTLwRb/pm3Dkj2fz6/aBZd16VUnjTHeuwhFM3YvyCbRb+XvT/K/ky87rYQIDAQABo14wXDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwFgYDVR0RBA8wDYILVGVzdFNpZ25pbmcwHQYDVR0OBBYEFNvdrlVSlUJ/mxELI6bMFpBox0+5MA0GCSqGSIb3DQEBCwUAA4IBAQAAXqFWGuysRgB1Z1LEGZRIVbcjHHrJNyqwOZt0BovKdN5FYCcOObNxJPs4y3RJg9ow+BUngIoQKj2nnRyJhbMtAJOiprBXHo5JpkyoOv9NP2RF0Mv7ErqYUtUMHdSwkCkTmIQVfyWcyhtdHe83NSMvKDpo57w2+hEdSnFUi8xD4lVnwOgNe0DcfuyfX6JjjxKglpb8mbDZmZ+VjgJOgIFGBUCf71t5T73LJ0R67ijAF71qFtqK3jnDI7eVyo0Y6VSZv5uxFbl572oH93FDrwVuCKZpxWCxWW8poENbzAb4qwPg7aw3gVw1/IAhaXx1JINK9sGCIDQW9cfnynFJGv2Z</X509Certificate></X509Data></KeyInfo></Signature></SBEUpdatesManifest>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>icIkgDTC3VYMlGMD8cRmO9ZXsfc=</DigestValue></Reference></SignedInfo><SignatureValue>XMy6hZ+WCoSbSRUI1OYjkS7s3n2Q/zlYyKpYjrKGbA+xRH/jU3ObPVJZJow6cm7g1YRK3SZOo7AInbPzMzATsYtAUmi537xwWR4pjB1CKoQbh4BUYYl7EF2GA/O/iBATujHK2Qeqdt+VXyX5OkQ2qnsvAC/+MOarvtjl3OhZcG80YUN+yhfN8QZnhRvTWnl59ASzlvDR9OuUomA2o3hsbBrE1pODY2g2ras5Crn3tGG70+LF3RRH7k5VtVZtCi9cHxVqDlaJDqaUQZxgfjrgsfLHXA2AM/mbDccncW5iZuPuJm5dNvegov1NXZEzJej7vwDuZ1YcPb3X/eS9ybLjsw==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2z06vRFbu2wvLz4vIumUr8KhN+mT9Q6CyXuY04HQFZd38a/Y0Ikchmo6w6sZBUHENPdeePHaUECHj1NZIyc+WuOgrwvRQLiy1BR5VAGUpsTT6oGkcE/m1x5GImMLCAjqIhoNWANiwYHGAP+rGxpJL3wkxWehAGh7UsLsaXShxoE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDFDCCAfygAwIBAgIQI6Ne0eRVbKZDbwWqDH+/HDANBgkqhkiG9w0BAQsFADAWMRQwEgYDVQQDDAtUZXN0U2lnbmluZzAeFw0yNDA1MTkxMTEzMzVaFw0zNDA1MTkxMTIzMzRaMBYxFDASBgNVBAMMC1Rlc3RTaWduaW5nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA13RICfHOQvEAy9JWrZ6w2oGWSzTolptUDVDFf8avw5pKwXEPnGRMZ2Vashw5E3GWpKIbkO0s2okYbfwNhkjoirquaRAF3By2LsqrIhkKXQ41M7IoIKRwDeT2DLsjiaDiJjRI+Ji/8chEoWodkj0hqW4mUx3oJj7upkXVtutwoDujRNNZdp22Y6h1e54G5IgQc5Q3va6IKNkV48le/CWHelOkt8YVR4QDpxLH0Np59a6rNtFUi5HJfQRybYfiPUfatyxFgHA5bnmdGeqtrmG/m+4TLtS0wTLwRb/pm3Dkj2fz6/aBZd16VUnjTHeuwhFM3YvyCbRb+XvT/K/ky87rYQIDAQABo14wXDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwFgYDVR0RBA8wDYILVGVzdFNpZ25pbmcwHQYDVR0OBBYEFNvdrlVSlUJ/mxELI6bMFpBox0+5MA0GCSqGSIb3DQEBCwUAA4IBAQAAXqFWGuysRgB1Z1LEGZRIVbcjHHrJNyqwOZt0BovKdN5FYCcOObNxJPs4y3RJg9ow+BUngIoQKj2nnRyJhbMtAJOiprBXHo5JpkyoOv9NP2RF0Mv7ErqYUtUMHdSwkCkTmIQVfyWcyhtdHe83NSMvKDpo57w2+hEdSnFUi8xD4lVnwOgNe0DcfuyfX6JjjxKglpb8mbDZmZ+VjgJOgIFGBUCf71t5T73LJ0R67ijAF71qFtqK3jnDI7eVyo0Y6VSZv5uxFbl572oH93FDrwVuCKZpxWCxWW8poENbzAb4qwPg7aw3gVw1/IAhaXx1JINK9sGCIDQW9cfnynFJGv2Z</X509Certificate></X509Data></KeyInfo></Signature></SBEUpdatesManifest>
