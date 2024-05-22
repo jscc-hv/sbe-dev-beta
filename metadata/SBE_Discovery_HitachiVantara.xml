@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SBEUpdatesManifest>
+  <ManifestInfo ManifestType="SBE" ReleaseType="Draft" CreationDate="2024-05-21T23:40:58Z" />
+  <ApplicableUpdate Version="4.1.2405.215" Type="SBE" Family="HA800G3">
+    <ValidatedConfigurations>
+      <RequiredPackages />
+    </ValidatedConfigurations>
+    <PartnerProperties><![CDATA[
+{
+  "DownloadEndpoint": {
+    "title": "SBE Download Endpoint Address",
+    "description": "Test endpoint for downloading SBE updates",
+    "$comment": "Test comment for download endpoint",
+    "const": "https://flecnode.jfrog.io/artifactory/SBEtest/",
+    "type": "string"
+  },
+  "MetadataEndpoint": {
+    "title": "SBE Metadata Endpoint Address",
+    "description": "Test endpoint for downloading SBE metadata",
+    "$comment": "Test comment for metadata endpoint",
+    "const": "https://github.com/jscc-hv/sbe-dev-beta/raw/main/metadata/",
+    "type": "string"
+  }
+}
+]]></PartnerProperties>
+    <CredentialList><![CDATA[
+[
+    {
+      "secretName": "DownloadConnectorCred",
+      "title": "SBE Update Download User",
+      "description": "Account for downloading SBE updates from contoso.com",
+      "usernameRules": {
+        "minLength": 3,
+        "maxLength": 12
+      },
+      "passwordRules": {
+        "minLength": 3,
+        "maxLength": 22
+      }
+    }
+]
+]]></CredentialList>
+    <UpdateInfo>
+      <UpdateName>SBE_HitachiVantara_HA800G3_4.1.2405.215</UpdateName>
+      <Publisher>HitachiVantara</Publisher>
+      <LicenseUri>https://www.hitachivantara.com/en-us/pdf/legal/software-license-terms.pdf</LicenseUri>
+      <Copyright>(C) Hitachi Vantara LLC. All Rights Reserved.</Copyright>
+      <Version>4.1.2405.215</Version>
+      <SupportedModels>
+        <SupportedModel>HitachiAdvancedServerHA820G3</SupportedModel>
+        <SupportedModel>HitachiAdvancedServerHA810G3</SupportedModel>
+        <SupportedModel>VirtualMachine</SupportedModel>
+      </SupportedModels>
+      <PackageSizeInMb>119</PackageSizeInMb>
+      <Description>Hitachi Vantara SBE package, version 4.1.2405.215, for both Validated Node and Integrated System</Description>
+      <PackageHash>0A37E3B6F905C2F97205EC09CE51B9493163FF05C10EF0F13207460D9C76A533</PackageHash>
+      <UpdateImpact>
+      </UpdateImpact>
+    </UpdateInfo>
+    <MetadataFile Name="SBE_HitachiVantara_HA800G3_4.1.2405.215.xml" Uri="" />
+    <File Name="SBE_HitachiVantara_HA800G3_4.1.2405.215.zip" Uri="" NotifyUri="https://support.hitachivantara.com/" Type="DownloadConnector" NotifyMsg="(C) Hitachi Vantara LLC. All Rights Reserved." />
+  </ApplicableUpdate>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>r0uKtTkzzQinWZR3NzfYKGSf8TA=</DigestValue></Reference></SignedInfo><SignatureValue>Tj04Ao1PJYDQ9SgikEGgTkoqOLu4Hqm/jSqxBT+b9A7eFzxHJUG14z+PUs5fx8eIk+R/N6Oj418GSyW9S3Q5J2P9jwqA8MS/w+g0MN9e2MepAIPR2OrXAvuFZqbrewPN5/i3GH7uiPdDByGS2PPzf0yFlEWpGyvu3tlAurnVvByLaMsfcuvM5whOENrawJe20BWnqXrqq8DMDMQHvvQcH6pSh9YjDiVt2FLr2nRfqMcRopstlhQKKckYkvRA0pvYxcanQboPoNWBCuEkz2siUV9nNBSBiU15+z/YrcSZA3yR8bU0mI6s9Yhtcb8Wec27n7GHgRtATYNAWGv03vJx7Q==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x2FtLZX6pQZTkGaqB87aIyUDZquxxn0G24m0O+j/skDXIicyyGLTtO1jhwI25Bc0CELmeoDSKPlGbwF6tMhgTnp++qGHS1UhrZYBeWzCbIZrrGfVzymRPM+BoSc2OOYmC4DTtHOh4EwfIl8MvRO+vOyDBiB17HsrWwjsicpGO70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDFDCCAfygAwIBAgIQI6Ne0eRVbKZDbwWqDH+/HDANBgkqhkiG9w0BAQsFADAWMRQwEgYDVQQDDAtUZXN0U2lnbmluZzAeFw0yNDA1MTkxMTEzMzVaFw0zNDA1MTkxMTIzMzRaMBYxFDASBgNVBAMMC1Rlc3RTaWduaW5nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA13RICfHOQvEAy9JWrZ6w2oGWSzTolptUDVDFf8avw5pKwXEPnGRMZ2Vashw5E3GWpKIbkO0s2okYbfwNhkjoirquaRAF3By2LsqrIhkKXQ41M7IoIKRwDeT2DLsjiaDiJjRI+Ji/8chEoWodkj0hqW4mUx3oJj7upkXVtutwoDujRNNZdp22Y6h1e54G5IgQc5Q3va6IKNkV48le/CWHelOkt8YVR4QDpxLH0Np59a6rNtFUi5HJfQRybYfiPUfatyxFgHA5bnmdGeqtrmG/m+4TLtS0wTLwRb/pm3Dkj2fz6/aBZd16VUnjTHeuwhFM3YvyCbRb+XvT/K/ky87rYQIDAQABo14wXDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwFgYDVR0RBA8wDYILVGVzdFNpZ25pbmcwHQYDVR0OBBYEFNvdrlVSlUJ/mxELI6bMFpBox0+5MA0GCSqGSIb3DQEBCwUAA4IBAQAAXqFWGuysRgB1Z1LEGZRIVbcjHHrJNyqwOZt0BovKdN5FYCcOObNxJPs4y3RJg9ow+BUngIoQKj2nnRyJhbMtAJOiprBXHo5JpkyoOv9NP2RF0Mv7ErqYUtUMHdSwkCkTmIQVfyWcyhtdHe83NSMvKDpo57w2+hEdSnFUi8xD4lVnwOgNe0DcfuyfX6JjjxKglpb8mbDZmZ+VjgJOgIFGBUCf71t5T73LJ0R67ijAF71qFtqK3jnDI7eVyo0Y6VSZv5uxFbl572oH93FDrwVuCKZpxWCxWW8poENbzAb4qwPg7aw3gVw1/IAhaXx1JINK9sGCIDQW9cfnynFJGv2Z</X509Certificate></X509Data></KeyInfo></Signature></SBEUpdatesManifest>
